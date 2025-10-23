@@ -1,0 +1,74 @@
+IUPMS-CZ-IRS Merged Panel Dataset License
+==========================================
+
+Copyright (c) 2025 Mridul Khanna, Heidelberg University
+
+Academic and Research License
+------------------------------
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this dataset and associated documentation files (the "Dataset"), to use
+the Dataset for academic research and educational purposes, subject to the
+following conditions:
+
+1. ATTRIBUTION REQUIREMENT
+   Any use of this Dataset in research, publications, presentations, or
+   derivative works must include the following citation:
+
+   Khanna, Mridul (2025). "IUPMS-CZ-IRS Merged Panel Dataset:
+   A Comprehensive US Commuting Zone Panel (1980-2023)."
+   Heidelberg University. https://github.com/Mridlll/Environmental-OGS
+
+2. PERMITTED USES
+   - Academic research and scholarly analysis
+   - Educational purposes in university courses
+   - Non-commercial research by governmental or non-profit organizations
+   - Replication of published research results
+   - Creation of derivative datasets with proper attribution
+
+3. RESTRICTED USES
+   - Commercial use requires written permission from the author
+   - Redistribution must include this license and citation information
+   - Cannot claim original authorship of the Dataset
+
+4. DERIVATIVE WORKS
+   If you create derivative datasets or substantially modify this Dataset:
+   - You must clearly acknowledge this Dataset as the source
+   - You must document all modifications made
+   - You should share derivative datasets under similar terms (encouraged but not required)
+
+5. NO WARRANTY
+   THE DATASET IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL
+   THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING
+   FROM THE USE OF THE DATASET.
+
+6. SOURCE DATA
+   This Dataset integrates public domain data from US government agencies:
+   - Internal Revenue Service (IRS) Statistics of Income
+   - Environmental Protection Agency (EPA) Air Quality System
+   - US Census Bureau (Decennial Census, American Community Survey)
+   - Bureau of Labor Statistics (County Business Patterns, QCEW)
+
+   All source data is in the public domain as works of the US government.
+   The compilation, cleaning, merging, and documentation represent the
+   original contribution of this Dataset.
+
+7. FEEDBACK AND COLLABORATION
+   Users are encouraged to:
+   - Report data quality issues via GitHub issues
+   - Share improvements and corrections with the community
+   - Collaborate on extensions and updates to the Dataset
+
+For questions, permissions, or collaboration inquiries, please contact:
+
+Mridul Khanna
+Heidelberg University
+Department of Economics
+Email: Available via university directory
+GitHub: https://github.com/Mridlll/Environmental-OGS
+
+---
+
+Last Updated: October 24, 2025
