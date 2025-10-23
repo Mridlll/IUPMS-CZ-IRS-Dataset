@@ -57,11 +57,13 @@ This dataset integrates the following authoritative data sources:
 - **Coverage**: 2000-2023 (PM2.5), 1980-2023 (Ozone)
 - **URL**: https://aqs.epa.gov/aqsweb/airdata/
 
-### 4. **American Community Survey (ACS) / Decennial Census**
-- **Source**: US Census Bureau
+### 4. **IPUMS USA (Integrated Public Use Microdata Series)**
+- **Source**: IPUMS USA, University of Minnesota
 - **Variables**: Demographics, housing costs, population by age/skill
 - **Coverage**: 1980-2023
-- **Aggregation**: Tract/county data aggregated to CZ
+- **Data**: Census and American Community Survey microdata
+- **Citation**: Steven Ruggles, Sarah Flood, Matthew Sobek, et al. IPUMS USA: Version 15.0 [dataset]. Minneapolis, MN: IPUMS, 2024. https://doi.org/10.18128/D010.V15.0
+- **URL**: https://usa.ipums.org/usa/
 
 ### 5. **Quarterly Census of Employment and Wages (QCEW)**
 - **Source**: Bureau of Labor Statistics
@@ -251,11 +253,12 @@ This dataset is made available for **academic research and educational purposes*
 
 ### Source Data Licenses
 
-This dataset integrates public domain US government data sources:
-- IRS Migration Data: Public domain (US government work)
-- EPA Air Quality Data: Public domain (US government work)
-- Census/ACS Data: Public domain (US government work)
-- County Business Patterns: Public domain (US government work)
+This dataset integrates public domain and freely available data sources:
+- **IPUMS USA**: Free for research use, requires citation (see above)
+- **IRS Migration Data**: Public domain (US government work)
+- **EPA Air Quality Data**: Public domain (US government work)
+- **County Business Patterns**: Public domain (US government work)
+- **QCEW**: Public domain (US government work)
 
 ---
 
@@ -287,14 +290,17 @@ For questions, bug reports, or data requests:
 
 This dataset was created as part of masters research at Heidelberg University on environmental sorting and spatial inequality. Special thanks to:
 
-- **Data Providers**: US Census Bureau, EPA, IRS, Bureau of Labor Statistics
+- **Data Providers**: IPUMS USA (University of Minnesota), US Census Bureau, EPA, IRS, Bureau of Labor Statistics
 - **CZ Definitions**: Tolbert and Sizer (1996), David Dorn's crosswalk files
 - **Research Support**: Heidelberg University Department of Economics
+
+**IPUMS Citation**: Steven Ruggles, Sarah Flood, Matthew Sobek, Danika Brockman, Grace Cooper, Stephanie Richards, and Megan Schouweiler. IPUMS USA: Version 15.0 [dataset]. Minneapolis, MN: IPUMS, 2024. https://doi.org/10.18128/D010.V15.0
 
 ---
 
 ## Related Resources
 
+- **IPUMS USA**: https://usa.ipums.org/usa/
 - **Commuting Zone Crosswalks**: http://www.ddorn.net/data.htm
 - **EPA Air Quality Data**: https://aqs.epa.gov/aqsweb/airdata/
 - **IRS Migration Data**: https://www.irs.gov/statistics/soi-tax-stats-migration-data

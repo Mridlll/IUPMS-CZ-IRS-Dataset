@@ -21,8 +21,8 @@
 
 | Variable | Type | Description | Units | Source | Years |
 |----------|------|-------------|-------|--------|-------|
-| `lon` | float | Longitude of CZ centroid | Decimal degrees | Census/ACS | All |
-| `lat` | float | Latitude of CZ centroid | Decimal degrees | Census/ACS | All |
+| `lon` | float | Longitude of CZ centroid | Decimal degrees | IPUMS USA | All |
+| `lat` | float | Latitude of CZ centroid | Decimal degrees | IPUMS USA | All |
 
 ---
 
@@ -32,13 +32,13 @@ Population counts by age group and skill level:
 
 | Variable | Type | Description | Units | Source | Years |
 |----------|------|-------------|-------|--------|-------|
-| `youth_high` | float | Youth (age 0-24) with high skill | Persons | Census/ACS | 1980-2023 |
-| `youth_low` | float | Youth (age 0-24) with low skill | Persons | Census/ACS | 1980-2023 |
-| `young_high` | float | Young adults (age 25-49) with high skill | Persons | Census/ACS | 1980-2023 |
-| `young_low` | float | Young adults (age 25-49) with low skill | Persons | Census/ACS | 1980-2023 |
-| `old_high` | float | Older adults (age 50+) with high skill | Persons | Census/ACS | 1980-2023 |
-| `old_low` | float | Older adults (age 50+) with low skill | Persons | Census/ACS | 1980-2023 |
-| `total_pop` | float | Total population | Persons | Census/ACS | 1980-2023 |
+| `youth_high` | float | Youth (age 0-24) with high skill | Persons | IPUMS USA | 1980-2023 |
+| `youth_low` | float | Youth (age 0-24) with low skill | Persons | IPUMS USA | 1980-2023 |
+| `young_high` | float | Young adults (age 25-49) with high skill | Persons | IPUMS USA | 1980-2023 |
+| `young_low` | float | Young adults (age 25-49) with low skill | Persons | IPUMS USA | 1980-2023 |
+| `old_high` | float | Older adults (age 50+) with high skill | Persons | IPUMS USA | 1980-2023 |
+| `old_low` | float | Older adults (age 50+) with low skill | Persons | IPUMS USA | 1980-2023 |
+| `total_pop` | float | Total population | Persons | IPUMS USA | 1980-2023 |
 
 **Skill Definition**:
 - **High skill** = Bachelor's degree or higher
@@ -72,10 +72,10 @@ Population counts by age group and skill level:
 
 | Variable | Type | Description | Units | Source | Years |
 |----------|------|-------------|-------|--------|-------|
-| `annual_wage_high` | float | Mean annual wage for high-skill workers | 2023 USD | QCEW/ACS | 1980-2023 |
-| `annual_wage_low` | float | Mean annual wage for low-skill workers | 2023 USD | QCEW/ACS | 1980-2023 |
-| `hourly_wage_high` | float | Mean hourly wage for high-skill workers | 2023 USD/hour | QCEW/ACS | 1980-2023 |
-| `hourly_wage_low` | float | Mean hourly wage for low-skill workers | 2023 USD/hour | QCEW/ACS | 1980-2023 |
+| `annual_wage_high` | float | Mean annual wage for high-skill workers | 2023 USD | QCEW/IPUMS USA | 1980-2023 |
+| `annual_wage_low` | float | Mean annual wage for low-skill workers | 2023 USD | QCEW/IPUMS USA | 1980-2023 |
+| `hourly_wage_high` | float | Mean hourly wage for high-skill workers | 2023 USD/hour | QCEW/IPUMS USA | 1980-2023 |
+| `hourly_wage_low` | float | Mean hourly wage for low-skill workers | 2023 USD/hour | QCEW/IPUMS USA | 1980-2023 |
 | `skill_wage_premium` | float | High-skill wage premium | Ratio | Derived | 1980-2023 |
 
 **Wage Adjustments**:
@@ -89,8 +89,8 @@ Population counts by age group and skill level:
 
 | Variable | Type | Description | Units | Source | Years |
 |----------|------|-------------|-------|--------|-------|
-| `employed_pop_high` | float | Employed population, high-skill | Persons | ACS | 1980-2023 |
-| `employed_pop_low` | float | Employed population, low-skill | Persons | ACS | 1980-2023 |
+| `employed_pop_high` | float | Employed population, high-skill | Persons | IPUMS USA | 1980-2023 |
+| `employed_pop_low` | float | Employed population, low-skill | Persons | IPUMS USA | 1980-2023 |
 | `total_emp` | float | Total employment (all industries) | Persons | CBP | 1980-2023 |
 
 ---
@@ -99,8 +99,8 @@ Population counts by age group and skill level:
 
 | Variable | Type | Description | Units | Source | Years |
 |----------|------|-------------|-------|--------|-------|
-| `mean_rent` | float | Mean gross rent (contract rent + utilities) | 2023 USD/month | ACS | 1980-2023 |
-| `n_renters` | float | Number of renter-occupied households | Households | ACS | 1980-2023 |
+| `mean_rent` | float | Mean gross rent (contract rent + utilities) | 2023 USD/month | IPUMS USA | 1980-2023 |
+| `n_renters` | float | Number of renter-occupied households | Households | IPUMS USA | 1980-2023 |
 
 **Rent Adjustments**:
 - Adjusted to 2023 dollars using CPI-U for Housing
